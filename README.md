@@ -2,6 +2,8 @@
 
 **ComIDP MCP Server** is a lightweight Model Context Protocol (MCP) server designed for seamless integrating [ComIDP](https://www.compdf.com/solutions/intelligent-document-processing) with AI chatbots, providing unstructured document processing functionalities, such as extracting data from PDF files. The service returns results in structured plain-text format, enabling downstream processing or archival.
 
+<img src="https://github.com/user-attachments/assets/47055398-a5ed-4bc4-ac18-0a6169c81a20" alt="2.4" width="50%" height="50%"/>
+
 ## License
 
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Please [contact us](https://www.compdf.com/contact-sales) for a trial license key.
