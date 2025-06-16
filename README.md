@@ -1,10 +1,10 @@
-# ComIDP MCP for Claude
+# ComIDP MCP Server
 
-**ComIDP MCP for Claude** is a lightweight MCP (Model Context Protocol) server designed for seamless integrating ComIDP with Claude Desktop. It provides unstructured document processing functionalities, such as extracting data from PDF files. The service returns results in structured plain-text format, enabling downstream processing or archival.
+**ComIDP MCP Server** is a lightweight Model Context Protocol (MCP) server designed for seamless integrating [ComIDP](https://www.compdf.com/solutions/intelligent-document-processing) with AI chatbots, providing unstructured document processing functionalities, such as extracting data from PDF files. The service returns results in structured plain-text format, enabling downstream processing or archival.
 
 ## License
 
-This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Please [contact us](https://www.compdf.com/contact-sales) for a trial license key.
 
 ## Features
 
@@ -15,12 +15,13 @@ This project is licensed under the [Apache License 2.0](https://www.apache.org/l
   - Batch processing and support for multiple files.
 
 - Future Enhancements
-
   - Support for more document formats (e.g., JPG, PNG etc.).
-
   - Integration with other ComIDP tools for advanced processing.
 
-## Setup
+
+## ComIDP MCP Server for Claude Desktop
+
+### Setup
 
 1. Dependencies:
 - Ensure you have the following dependencies installed:
@@ -97,7 +98,7 @@ This project is licensed under the [Apache License 2.0](https://www.apache.org/l
 
 3. Restart Claude Desktop.
 
-## API Reference
+### API Reference
 
 **Data extraction**
 
@@ -133,7 +134,6 @@ def data_extraction_from_folder(folder: str, save_dir_path: str, recursive: bool
         If an error occurs, the value will be an error message.
     """
 ```
-
 
 ## Support
 
